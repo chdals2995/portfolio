@@ -5,7 +5,16 @@ import teamImg from "../assets/icon/4tree2.png";
 import personalImg from "../assets/icon/4tree3.png";
 import indexImg from "../assets/icon/4tree4.png";
 
-export const headerSectionConfig = {
+import type { SectionType } from "./Section";
+
+export const headerSectionConfig: Record<
+  SectionType,
+  {
+    showTitle: boolean;
+    title: string;
+    image: string | null;
+  }
+> = {
   home: {
     showTitle: false,
     title: "",

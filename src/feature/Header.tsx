@@ -3,14 +3,7 @@
 import HomeIcon from "../assets/icon/4outhome.png"
 import { headerSectionConfig } from "../types/HeaderConfig";
 import type { Project } from "../types/Project";
-
-// 풀페이지 섹션 설정
-type SectionType =
-  | "home"
-  | "about"
-  | "team"
-  | "personal"
-  | "index";
+import type { SectionType } from "../types/Section";
 
 // 헤더 시각화 조건 설정
 type HeaderProps = {
@@ -47,7 +40,8 @@ export default function Header({
                 {/* 소제목 */}
                 {currentProject && (
                 <div className="flex items-center gap-2">
-                    <img src={currentProject.image} alt="소제목" />
+                    <img src={currentProject.image} alt="소제목" 
+                    className="w-11"/>
                     <h3>{currentProject.title}</h3>
                 </div>
                 )}
