@@ -12,7 +12,7 @@ type HeaderProps = {
 };
 
 
-
+// 현재 섹션
 export default function Header({
     currentSection, currentProject,
 }: HeaderProps){
