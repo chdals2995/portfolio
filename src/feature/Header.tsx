@@ -20,7 +20,7 @@ export default function Header({
     const section = headerSectionConfig[currentSection];
 
     return(
-        <div className="w-160 border-red-500 border-2 flex pl-11 pt-7 items-center">
+        <div className="w-160 flex pl-11 pt-7 items-center">
             {/* 홈 버튼 */}
             <button className="w-13 h-13 cursor-pointer flex items-center justify-center">
                 <img src={HomeIcon} alt="홈" className="w-12 h-11 object-contain"/>

@@ -9,7 +9,7 @@ interface HeaderProps {
 
 export default function Tab({ currentSection }: HeaderProps) {
   return (
-    <div className="absolute w-full bottom-24.5">
+    <div className="absolute w-full bottom-20">
       <ul
         className="w-394 h-24.5 border-5 border-[#FFC4D7] rounded-4xl bg-[#FFC4D7]
         bg-linear-to-b from-[#FFD0DF] via-[#FFD0DF] to-[#FFF]
