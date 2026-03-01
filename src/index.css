@@ -1,6 +1,15 @@
 @import "tailwindcss";
 
-*{ margin: 0; padding: 0; box-sizing: border-box;}
+@font-face {
+    font-family: 'RoundedFixedsys';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+*{box-sizing: border-box;}
+
+body{font-family: 'RoundedFixedsys';}
 
 a{text-decoration: none;}
 
